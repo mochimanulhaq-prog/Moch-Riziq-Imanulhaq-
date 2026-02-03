@@ -75,11 +75,7 @@
     </style>
 </head>
 <body>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <style>
     <div class="container">
         <img src="https://media.licdn.com/dms/image/v2/D5603AQFiuTrriplGWg/profile-displayphoto-scale_400_400/B56Zwj5Z4uJEAg-/0/1770128778412?e=1771459200&v=beta&t=cEjoQj4XTN-ILOehRyDOKRL5gV8v-aNQVeV4o5ixerw" alt="Foto Profil" class="profile-img">
         
