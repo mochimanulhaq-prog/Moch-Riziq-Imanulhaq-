@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        /* Gaya Dasar */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Kontainer Utama */
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        /* Foto Profil */
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #007bff;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        /* Gaya Link Sosmed */
+        .links {
+            margin-top: 2rem;
+        }
+
+        .link-card {
+            display: block;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        .link-card:hover {
+            background: #0056b3;
+            transform: translateY(-3px);
+        }
+
+        /* Warna Khusus Sosmed (Opsional) */
+        .instagram { background: #E1306C; }
+        .facebook { background: #333; }
+        .linkedin { background: #0077b5; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQFiuTrriplGWg/profile-displayphoto-scale_400_400/B56Zwj5Z4uJEAg-/0/1770128778412?e=1771459200&v=beta&t=cEjoQj4XTN-ILOehRyDOKRL5gV8v-aNQVeV4o5ixerw" alt="Foto Profil" class="profile-img">
+        
+        <h1>Halo, Saya Moch Riziq Imanul Haq</h1>
+        <p>S1 Akuakultur yang berfokus di bidang Bioteknologi dan Molekuler sektor perikanan.</p>
+
+        <div class="links">
+            <a href="https://www.instagram.com/mhmdrzq___?igsh=MXN1cjVqeW92d2dkMQ==" class="link-card instagram" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/mochriziqimanulhaq" class="link-card linkedin" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+
+</body>
+</html>
